@@ -41,7 +41,9 @@ function countEvenNumbers(arrayOfNumbers) {
 //     }
 //   });
 //   return count;
-  return arrayOfNumbers.filter((num) => return num % 2 == 0);
+ return arrayOfNumbers.filter((num) => {
+    return num % 2 == 0;
+  });
 }
 assignment.countEvenNumbers = countEvenNumbers;
 
