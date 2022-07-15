@@ -35,7 +35,7 @@ assignment.sumOfNumbers = sumOfNumbers;
  */
 function countEvenNumbers(arrayOfNumbers) {
  
-//   return arrayOfNumbers.filter((num) => num % 2);
+  return arrayOfNumbers.filter((num) => num % 2);
 }
 assignment.countEvenNumbers = countEvenNumbers;
 
