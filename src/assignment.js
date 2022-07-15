@@ -39,7 +39,7 @@ function countEvenNumbers(arrayOfNumbers) {
 //     if (numbers % 2 == 0) {
 //       count += 1;
 //     }
-//   });
+//   }).length;
 //   return count;
  return arrayOfNumbers.filter((num) => {
     return num % 2 == 0;
