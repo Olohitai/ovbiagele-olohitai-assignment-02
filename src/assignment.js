@@ -34,14 +34,14 @@ assignment.sumOfNumbers = sumOfNumbers;
  * @returns number the count of even numbers
  */
 function countEvenNumbers(arrayOfNumbers) {
- let count = 0;
-  arrayOfNumbers.forEach((numbers) => {
-    if (numbers % 2 == 0) {
-      count += 1;
-    }
-  });
-  return count;
-//   return arrayOfNumbers.filter((num) => num % 2);
+//  let count = 0;
+//   arrayOfNumbers.forEach((numbers) => {
+//     if (numbers % 2 == 0) {
+//       count += 1;
+//     }
+//   });
+//   return count;
+  return arrayOfNumbers.filter((num) => return num % 2 == 0);
 }
 assignment.countEvenNumbers = countEvenNumbers;
 
