@@ -17,10 +17,8 @@ function sumOfNumbers(arrayOfNumbers) {
  let sum = 0;
   for (num of arrayOfNumbers) {
     sum += num;
-
   }
     return sum;
-  return arrayOfNumbers.length;
 }
 assignment.sumOfNumbers = sumOfNumbers;
 
@@ -34,13 +32,6 @@ assignment.sumOfNumbers = sumOfNumbers;
  * @returns number the count of even numbers
  */
 function countEvenNumbers(arrayOfNumbers) {
-//  let count = 0;
-//   arrayOfNumbers.forEach((numbers) => {
-//     if (numbers % 2 == 0) {
-//       count += 1;
-//     }
-//   }).length;
-//   return count;
  return arrayOfNumbers.filter((num) => {
     return num % 2 == 0;
   }).length;
