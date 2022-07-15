@@ -43,7 +43,7 @@ function countEvenNumbers(arrayOfNumbers) {
 //   return count;
  return arrayOfNumbers.filter((num) => {
     return num % 2 == 0;
-  });
+  }).length;
 }
 assignment.countEvenNumbers = countEvenNumbers;
 
